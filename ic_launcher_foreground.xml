@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Group centered strictly within 66dp safe zone (21dp to 87dp) -->
+    <group>
+        <!-- 1. Royal Esports Crown above Trophy -->
+        <path
+            android:pathData="M44,28.5 L40,22.5 L47.5,25.5 L54,20.5 L60.5,25.5 L68,22.5 L64,28.5 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="54"
+                    android:startY="20.5"
+                    android:endX="54"
+                    android:endY="28.5"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#FFF176" />
+                    <item android:offset="0.5" android:color="#FFB300" />
+                    <item android:offset="1.0" android:color="#F57F17" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Crown Base Band -->
+        <path
+            android:pathData="M43,28 L65,28 L64,30.5 L44,30.5 Z"
+            android:fillColor="#FF8F00" />
+
+        <!-- 2. Championship Golden Trophy Cup Body -->
+        <path
+            android:pathData="M38,31 L70,31 L69,34 C69,45 61,54 54,54 C47,54 39,45 39,34 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="38"
+                    android:startY="31"
+                    android:endX="70"
+                    android:endY="54"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#FFF9C4" />
+                    <item android:offset="0.3" android:color="#FFD54F" />
+                    <item android:offset="0.7" android:color="#FFB300" />
+                    <item android:offset="1.0" android:color="#E65100" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Trophy Inner Sheen / Specular Split Highlight -->
+        <path
+            android:pathData="M54,32 L68,32 C68,43 61,51 54,53 Z"
+            android:fillColor="#15FFFFFF" />
+
+        <!-- Trophy Cup Left Wing Handle -->
+        <path
+            android:pathData="M38.5,33 C31,34 29,42 33,48 C36,52 40,53 42,53 C41,51 37.5,50 35.5,47 C33,43 34,36 38.5,35 Z"
+            android:fillColor="#FFC107" />
+
+        <!-- Trophy Cup Right Wing Handle -->
+        <path
+            android:pathData="M69.5,33 C77,34 79,42 75,48 C72,52 68,53 66,53 C67,51 70.5,50 72.5,47 C75,43 74,36 69.5,35 Z"
+            android:fillColor="#FFB300" />
+
+        <!-- Trophy Stem & Controller Connector Base -->
+        <path
+            android:pathData="M51.5,53 L56.5,53 L58,57 L50,57 Z"
+            android:fillColor="#FFA000" />
+
+        <!-- 3. Gamepad Silhouette / Controller Arched Base -->
+        <path
+            android:pathData="M33,63 C33,56 42,56.5 54,56.5 C66,56.5 75,56 75,63 C75,64.5 72,65 70,63 C66,59 58,59 54,59 C50,59 42,59 38,63 C36,65 33,64.5 33,63 Z"
+            android:fillColor="#FF8F00" />
+
+        <!-- D-Pad (+) on Left Wing -->
+        <path
+            android:pathData="M42,58 H46 V60 H42 Z M43,57 H45 V61 H43 Z"
+            android:fillColor="#FFD54F" />
+
+        <!-- Action 4-Dots (ABXY) on Right Wing -->
+        <path
+            android:pathData="M65,58.5 A1,1 0 1 0 65,56.5 A1,1 0 1 0 65,58.5 Z M65,62 A1,1 0 1 0 65,60 A1,1 0 1 0 65,62 Z M63.2,60.2 A1,1 0 1 0 63.2,58.2 A1,1 0 1 0 63.2,60.2 Z M66.8,60.2 A1,1 0 1 0 66.8,58.2 A1,1 0 1 0 66.8,60.2 Z"
+            android:fillColor="#FFD54F" />
+
+        <!-- 4. Bold Metallic 'C' (Silver-White Titanium with Angular Gaming Chamfers) -->
+        <path
+            android:pathData="M48,66 L33,66 L26,73 L26,79 L33,86 L48,86 L48,80 L35,80 L31.5,76.5 L31.5,75.5 L35,72 L48,72 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="26"
+                    android:startY="66"
+                    android:endX="48"
+                    android:endY="86"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#FFFFFF" />
+                    <item android:offset="0.6" android:color="#F1F5F9" />
+                    <item android:offset="1.0" android:color="#CBD5E1" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- 'C' Inner Depth Bevel -->
+        <path
+            android:pathData="M48,72 L35,72 L31.5,75.5 L31.5,76.5 L35,80 L48,80 L48,79 L36,79 L33.5,76.5 L33.5,75.5 L36,73 L48,73 Z"
+            android:fillColor="#E2E8F0" />
+
+        <!-- 5. Bold Dynamic 'Z' (Vibrant Esports Gold with Speed Slices) -->
+        <path
+            android:pathData="M52,66 L82,66 L82,71.5 L62.5,80 L82,80 L82,86 L51,86 L51,80.5 L70.5,72 L52,72 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="51"
+                    android:startY="66"
+                    android:endX="82"
+                    android:endY="86"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#FFE082" />
+                    <item android:offset="0.3" android:color="#FFCA28" />
+                    <item android:offset="0.8" android:color="#FFB300" />
+                    <item android:offset="1.0" android:color="#FF8F00" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- 'Z' Top Dynamic Speed Chamfer Accent -->
+        <path
+            android:pathData="M56,66 L82,66 L77,71.5 L52,71.5 Z"
+            android:fillColor="#FFF59D" />
+    </group>
+</vector>
